@@ -147,17 +147,15 @@ function FormValidation() {
 	if(/^[A-Za-z]*/.test(document.getElementById("profileState").value)) {
 		alert("zipcode cannot contain alpha");
 		document.getElementById('profileZip').style.borderColor = "red";
-		return true;
+		return false;
 	} else {
 		document.getElementById('profileZip').style.borderColor = "white";
 	}
-	if(fn.length <= 5) {
+	if(fn.length = 5) {
 		alert('zipcode must be five digits');
 		document.getElementById('profileZip').style.borderColor = "red";
 		return false;
 	} else {
 		document.getElementById('profileZip').style.borderColor = "white";
 	}
-
-	alert("registration successful");
 }

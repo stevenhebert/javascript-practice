@@ -32,11 +32,11 @@
 
 		<!-- my javascript -->
 		<script type="text/javascript"
-				  src="js/reg.js"></script>
+				  src="js/other.js"></script>
 
 		<link type="text/css"
-				src="css/style.css"
-				rel="stylesheet">
+		src="css/style.css"
+		rel="stylesheet">
 
 		<title>JS Assignment</title>
 
@@ -44,27 +44,27 @@
 	<body>
 
 		<main>
-			<div class="container">
-				<form action="/action_page.php" onsubmit="return FormValidation();" onchange="return FormValidation();">
+			<section>
+				<div class="container">
 
-					username: <input type="text" id="profileUserName"><br/>
-					password: <input type="text" id="profileHash"><br/>
-					email address: <input type="text" id="email"><br/>
-					first name: <input type="text" id="profileFirstName"><br/>
-					last name: <input type="text" id="profileLastName"><br/>
-					address1: <input type="text" id="profileAddress1"><br/>
-					address2: <input type="text" id="profileAddress2"> <br/>
-					city: <input type="text" id="profileCity"><br/>
-					state: <input type="text" id="profileState"><br/>
-					zipcode: <input type="text" id="profileZip"><br/>
-					<input type="Submit" value="register">
+					<h1 id="fontChange" ondblclick="fontChangeFamilyDoubleClick()">
+						js needs more practice
+					</h1>
 
-				</form>
+					<p id="changeColor" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">
+						disappearing text, click me if you can!
+					</p>
 
-			</div>
+			</section>
+
+			<section>
+				<div class="container">
+
+					<img id="peace" src="images/win.jpg" alt="office" onclick="imageChange()">
+
+				</div>
+
+			</section>
 
 		</main>
-
-	</body>
-
 </html>
