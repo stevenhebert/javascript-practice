@@ -34,9 +34,10 @@
 		<script type="text/javascript"
 				  src="js/js.js"></script>
 
-		<link type text/css
-				src="css/style.css"
-				rel="stylesheet">
+		<link type text
+		/css
+		src="css/style.css"
+		rel="stylesheet">
 
 		<title>JS Assignment</title>
 
@@ -67,6 +68,8 @@
 			</section>
 
 			<section>
+				<div class="container">
+					<div class="form">
 						<form action="/action_page.php" onsubmit="myFunction()">
 							username: <input type="text" name="profileUserName">
 							password: <input type="text" name="profileHash">
@@ -80,10 +83,12 @@
 							zipcode: <input type="text" name="profileZip">
 							<input type="Submit" value="Submit">
 						</form>
-					</body>
-				</html>
+					</div>
+				</div>
+	</body>
+</html>
 
 
-			</section>
-		</main>
+</section>
+</main>
 </html>
