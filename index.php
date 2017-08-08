@@ -5,9 +5,9 @@
 		<title>JS Practice</title>
 	</head>
 	<body>
-		<link href="https://bootcamp-coders.cnm.edu/~shebert2/javascript-practice/registration.php">
-		<link href="https://bootcamp-coders.cnm.edu/~shebert2/javascript-practice/other.php">
-		<img src="images/javaNotJavaS.jpeg">
+		<a href="https://bootcamp-coders.cnm.edu/~shebert2/javascript-practice/registration.php">registration form</a>
+		<a href="https://bootcamp-coders.cnm.edu/~shebert2/javascript-practice/other.php">other stuff</a>
+		<img src="images/javaNotJavaS.jpeg" alt="anImg">
 	</body>
 </html>
 
