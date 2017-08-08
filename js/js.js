@@ -20,3 +20,20 @@ function fontChangeFamilyDoubleClick() {
 	var num = Math.floor(Math.random() * 4);
 	document.getElementById("fontChange").style.fontFamily = fontFamily[num];
 }
+
+/**
+ * pc on click
+ */
+function mouseEnter() {
+	document.getElementById("peace").innerHTML = "hover over here";
+	document.getElementById("peace").src = "images/win.jpg";
+}
+
+function mouseOut() {
+	document.getElementById("peace").innerHTML = "---";
+	document.getElementById("peace").src = "images/non.jpg";
+}
+
+function myFunction() {
+	alert("nice name");
+}

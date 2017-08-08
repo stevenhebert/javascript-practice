@@ -34,8 +34,9 @@
 		<script type="text/javascript"
 				  src="js/js.js"></script>
 
-		<!-- my stylesheet -->
-		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<link type text/css
+				src="css/style.css"
+				rel="stylesheet">
 
 		<title>JS Assignment</title>
 
@@ -47,7 +48,7 @@
 				<div class="container">
 
 					<h1 id="fontChange" ondblclick="fontChangeFamilyDoubleClick()">
-						js prac (forgotten assignment) deserves moar tice
+						js needs more practice
 					</h1>
 
 					<p id="changeColor" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">
@@ -58,18 +59,31 @@
 
 			<section>
 				<div class="container">
-					<img class="notfood" src="images/food5.jpg" alt="food5">
+
+					<img id="peace" src="images/win.jpg" alt="office" onclick="imageChange()">
+
 				</div>
+
+			</section>
+
+			<section>
+						<form action="/action_page.php" onsubmit="myFunction()">
+							username: <input type="text" name="profileUserName">
+							password: <input type="text" name="profileHash">
+							email address: <input type="text" name="email">
+							first name: <input type="text" name="profileFirstName">
+							last name: <input type="text" name="profileLastName">
+							address1: <input type="text" name="profileAddress1">
+							address2: <input type="text" name="profileAddress2">
+							city: <input type="text" name="profileCity">
+							state: <input type="text" name="profileState">
+							zipcode: <input type="text" name="profileZip">
+							<input type="Submit" value="Submit">
+						</form>
+					</body>
+				</html>
+
+
 			</section>
 		</main>
-
-		<footer>
-			<div class="container">
-				<p>Does your lorem ipsum text long for something a little meatier? Give our
-					generator a try… it’s tasty!</p>
-			</div>
-			</div>
-		</footer>
-
-	</body>
 </html>
