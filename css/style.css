@@ -32,3 +32,17 @@ html, body {
 /*corrects IE min-height bug*/
 html { display: flex;}
 body { width: 100%;}
+
+
+/**
+* align registration form fields
+**/
+
+.container {
+	width: 500px;
+}
+
+.container input {
+	width: 100%;
+}
+

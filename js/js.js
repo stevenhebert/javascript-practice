@@ -34,6 +34,12 @@ function mouseOut() {
 	document.getElementById("peace").src = "images/non.jpg";
 }
 
+
+/**
+ * for registration form
+ *
+ */
+
 function myFunction() {
-	alert("nice name");
+	alert("registration successful");
 }

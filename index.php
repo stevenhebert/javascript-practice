@@ -67,28 +67,5 @@
 
 			</section>
 
-			<section>
-				<div class="container">
-					<div class="form">
-						<form action="/action_page.php" onsubmit="myFunction()">
-							username: <input type="text" name="profileUserName">
-							password: <input type="text" name="profileHash">
-							email address: <input type="text" name="email">
-							first name: <input type="text" name="profileFirstName">
-							last name: <input type="text" name="profileLastName">
-							address1: <input type="text" name="profileAddress1">
-							address2: <input type="text" name="profileAddress2">
-							city: <input type="text" name="profileCity">
-							state: <input type="text" name="profileState">
-							zipcode: <input type="text" name="profileZip">
-							<input type="Submit" value="Submit">
-						</form>
-					</div>
-				</div>
-	</body>
-</html>
-
-
-</section>
 </main>
 </html>
