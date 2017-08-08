@@ -48,7 +48,7 @@
 				<div class="container">
 
 					<h1 id="fontChange" ondblclick="fontChangeFamilyDoubleClick()">
-						js practice
+						js practice _shapeShiftOnDoubleClick
 					</h1>
 
 					<p id="changeColor" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">
