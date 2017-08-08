@@ -25,5 +25,10 @@ function fontChangeFamilyDoubleClick() {
  *
  **/
 function changeImage() {
-	document.getElementById('bliss').src="images/not.jpg";
+	document.getElementById('imageChange').src = "images/not.jpg";
+}
+
+
+function unchangeImage() {
+	document.getElementById('imageChange').src = "images/bliss.jpg";
 }

@@ -48,7 +48,7 @@
 				<div class="container">
 
 					<h1 id="fontChange" ondblclick="fontChangeFamilyDoubleClick()">
-						js needs more practice
+						js practice
 					</h1>
 
 					<p id="changeColor" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">
@@ -58,8 +58,9 @@
 			</section>
 
 			<section>
-				<img id="bliss" src="images/bliss.jpg" id="bliss"/>
-				<img src="images/not.jpg" onmouseover="changeImage('images/not.jpg')"/>
+				<img id="imageChange" src="images/bliss.jpg" onmouseover="changeImage('images/not.jpg')"
+					  onmouseleave="unchangeImage('images/bliss.jpg')" >
+
 			</section>
 		</main>
 
