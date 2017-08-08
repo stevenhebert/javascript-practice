@@ -35,11 +35,3 @@ function mouseOut() {
 }
 
 
-/**
- * for registration form
- *
- */
-
-function myFunction() {
-	alert("registration successful");
-}

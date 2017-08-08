@@ -32,7 +32,7 @@
 
 		<!-- my javascript -->
 		<script type="text/javascript"
-				  src="js/js.js"></script>
+				  src="js/reg.js"></script>
 
 		<link type text
 		/css
@@ -46,7 +46,8 @@
 
 		<main>
 			<div class="container">
-				<form action="/action_page.php" onsubmit="myFunction()">
+				<form action="/action_page.php" onsubmit="return FormValidation();" onchange="return FormValidation();">
+
 					username: <input type="text" oninvalid="alert('user must fill out all required fields');"
 										  name="profileUserName" required><br/>
 					password: <input type="text" oninvalid="alert('user must fill out all required fields');"
