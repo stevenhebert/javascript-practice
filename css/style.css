@@ -46,8 +46,12 @@ body { width: 100%;}
 	width: 100%;
 }
 
-img {
-	position: absolute;
+#bliss {
+	width: 300px;
+	height: 300px;
+}
+
+#not {
 	width: 300px;
 	height: 300px;
 }

@@ -58,9 +58,7 @@
 			</section>
 
 			<section>
-				<img src="images/bliss.jpg" id="bliss"/>
-				<img src="images/not.jpg" onmouseover="changeImage('images/not.jpg')"/>
-				<img src="images/bliss.jpg" onmouseover="changeImage('images/bliss.jpg')"/>
+				<img id="bliss" src="images/bliss.jpg" id="bliss"/>
 				<img src="images/not.jpg" onmouseover="changeImage('images/not.jpg')"/>
 			</section>
 		</main>
