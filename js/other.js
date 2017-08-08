@@ -1,20 +1,20 @@
 /**
  *  colorChange when cursor over
- */
+ **/
 function fontChangeColorMouseOver() {
 	document.getElementById("changeColor").style.color = "White";
 }
 
 /**
  * colorChange when cursor leaves
- */
+ **/
 function fontChangeColorMouseOut() {
 	document.getElementById("changeColor").style.color = "Black";
 }
 
 /**
- * fontChange on click
- */
+ * fontChange on double click
+ **/
 function fontChangeFamilyDoubleClick() {
 	var fontFamily = ["Georgia", "Helvetica", "Palatino Linotype", "Monaco"];
 	var num = Math.floor(Math.random() * 4);
@@ -22,16 +22,8 @@ function fontChangeFamilyDoubleClick() {
 }
 
 /**
- * pc on click
- */
-function mouseEnter() {
-	document.getElementById("peace").innerHTML = "hover over here";
-	document.getElementById("peace").src = "images/win.jpg";
+ *
+ **/
+function changeImage(img){
+	document.getElementById('bliss').src=img;
 }
-
-function mouseOut() {
-	document.getElementById("peace").innerHTML = "---";
-	document.getElementById("peace").src = "images/non.jpg";
-}
-
-

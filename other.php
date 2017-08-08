@@ -35,8 +35,8 @@
 				  src="js/other.js"></script>
 
 		<link type="text/css"
-		src="css/style.css"
-		rel="stylesheet">
+				src="css/style.css"
+				rel="stylesheet">
 
 		<title>JS Assignment</title>
 
@@ -58,13 +58,11 @@
 			</section>
 
 			<section>
-				<div class="container">
-
-					<img id="peace" src="images/win.jpg" alt="office" onclick="imageChange()">
-
-				</div>
-
+				<img src="images/bliss.jpg" id="bliss"/>
+				<img src="images/not.jpg" onmouseover="changeImage('images/not.jpg')"/>
+				<img src="images/bliss.jpg" onmouseover="changeImage('images/bliss.jpg')"/>
+				<img src="images/not.jpg" onmouseover="changeImage('images/not.jpg')"/>
 			</section>
-
 		</main>
+
 </html>
