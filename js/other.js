@@ -32,3 +32,13 @@ function changeImage() {
 function unchangeImage() {
 	document.getElementById('imageChange').src = "images/bliss.jpg";
 }
+
+
+$.ajax({
+	src: 'other.php',
+	success: function(result) {
+		var $result = $(result);
+		$result.find( 'div' ).replaceWith('<span>replace</span>');
+		$result.appendTo('body');
+	}
+});

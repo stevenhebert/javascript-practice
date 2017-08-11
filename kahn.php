@@ -1,3 +1,5 @@
+<!-- Basics -->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -32,39 +34,15 @@
 
 		<!-- my javascript -->
 		<script type="text/javascript"
-				  src="js/reg.js"></script>
+				  src="js/other.js"></script>
 
 		<link type="text/css"
 				src="css/style.css"
 				rel="stylesheet">
 
-		<title>JS Assignment</title>
+		<title>JS Practice</title>
 
 	</head>
 	<body>
 
-		<main>
-			<div class="container">
-				<form action="" onsubmit="return FormValidation();" onchange="return FormValidation();">
 
-					username: <input type="text" id="profileUserName"><br/>
-					password: <input type="text" id="profileHash"><br/>
-					email address: <input type="text" id="email"><br/>
-					first name: <input type="text" id="profileFirstName"><br/>
-					last name: <input type="text" id="profileLastName"><br/>
-					address1: <input type="text" id="profileAddress1"><br/>
-					address2: <input type="text" id="profileAddress2"> <br/>
-					city: <input type="text" id="profileCity"><br/>
-					state: <input type="text" id="profileState"><br/>
-					zipcode: <input type="text" id="profileZip"><br/>
-					<input type="submit" value="register">
-
-				</form>
-
-			</div>
-
-		</main>
-
-	</body>
-
-</html>
