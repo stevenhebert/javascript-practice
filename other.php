@@ -31,12 +31,10 @@
 		<script> src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"</script>
 
 		<!-- my javascript -->
-		<script type="text/javascript"
-				  src="js/other.js"></script>
+		<script type="text/javascript" src="js/other.js"></script>
 
-		<link type="text/css"
-				src="css/style.css"
-				rel="stylesheet">
+		<!-- my css -->
+		<link type="text/css" src="css/style.css" rel="stylesheet">
 
 		<title>JS Assignment</title>
 
@@ -48,7 +46,7 @@
 				<div class="container">
 
 					<h1 id="fontChange" ondblclick="fontChangeFamilyDoubleClick()">
-						js practice _shapeShiftOnDoubleClick
+						js practice _doubleClick
 					</h1>
 
 					<p id="changeColor" onmouseenter="fontChangeColorMouseOver()" onmouseleave="fontChangeColorMouseOut()">
@@ -59,7 +57,7 @@
 
 			<section>
 				<img id="imageChange" src="images/bliss.jpg" onmouseover="changeImage('images/not.jpg')"
-					  onmouseleave="unchangeImage('images/bliss.jpg')" >
+					  onmouseleave="unchangeImage('images/bliss.jpg')">
 
 			</section>
 

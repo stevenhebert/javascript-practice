@@ -74,7 +74,7 @@ function unchangeImage() {
  **/
 var pageCounter = 1;
 var animalContainer = document.getElementById("animal-info");
-var btn = document.getElementsById("btn");
+var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
 
@@ -91,26 +91,24 @@ btn.addEventListener("click", function() {
 function renderHTML(data) {
 	var htmlString = "";
 
-	for(i = 0, i < data.length; i++) {
+	for(i = 0; i < data.length; i++) {
 		htmlString += "<p>" + data[i].name + " is a " + data[i].species + " that likes to eat ";
 
-		for(ii = 0, ii < data[i].food.likes.length; ii++) {
+		for(ii = 0; ii < data[i].food.likes.length; ii++) {
 			if(ii == 0) {
-				htmlString += data[i].food.likes.[ii];
+				htmlString += data[i].food.likes[ii];
 			} else {
-				htmlString += " and "
-				data[i].food.likes.[ii];
+				htmlString += " and " + data[i].food.likes[ii];
 			}
 		}
 
 		htmlString += ' and dislikes ';
 
-		for(ii = 0, ii < data[i].food.dislikes.length; ii++) {
+		for(ii = 0; ii < data[i].food.dislikes.length; ii++) {
 			if(ii == 0) {
-				htmlString += data[i].food.dislikes.[ii];
+				htmlString += data[i].food.dislikes[ii];
 			} else {
-				htmlString += " and "
-				data[i].food.dislikes.[ii];
+				htmlString += " and " + data[i].food.dislikes[ii];
 			}
 		}
 
