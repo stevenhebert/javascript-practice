@@ -34,11 +34,6 @@ function unchangeImage() {
 }
 
 
-$.ajax({
-	src: 'other.php',
-	success: function(result) {
-		var $result = $(result);
-		$result.find( 'div' ).replaceWith('<span>replace</span>');
-		$result.appendTo('body');
-	}
-});
+var myCat = {
+"name":
+}

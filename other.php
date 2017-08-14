@@ -62,6 +62,12 @@
 					  onmouseleave="unchangeImage('images/bliss.jpg')" >
 
 			</section>
+
+			<section>
+				<button id="btn">call animals</button>
+				<div id="animal-info"></div>
+			</section>
+
 		</main>
 
 </html>
